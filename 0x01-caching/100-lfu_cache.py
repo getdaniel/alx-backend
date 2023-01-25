@@ -12,7 +12,7 @@ class LFUCache(BaseCaching):
         """Initialize the cache."""
         super().__init__()
         self.cache_data = OrderedDict()
-        self.keys_frequency =  []
+        self.keys_frequency = []
 
     def put(self, key, item):
         """Assign to the dictionary."""
