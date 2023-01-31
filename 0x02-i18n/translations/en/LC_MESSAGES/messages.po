@@ -1,0 +1,23 @@
+# English translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <danielgetaneh2011@gmail.com>, 2023.
+#
+msgid "home_title"
+msgstr "Welcome to Holberton"
+
+msgid "home_header"
+msgstr "Hello world!"
+
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: danielgetaneh2011@gmail.com\n"
+"POT-Creation-Date: 2023-01-31 11:45+0300\n"
+"PO-Revision-Date: 2023-01-31 11:45+0300\n"
+"Last-Translator: Daniel Shibabaw <danielgetaneh2011@gmail.com>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
