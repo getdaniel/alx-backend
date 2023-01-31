@@ -15,6 +15,9 @@ msgstr "You are logged in as %(username)s."
 msgid "not_logged_in"
 msgstr "You are not logged in."
 
+msgid "current_time_is"
+msgstr "The current time is %(current_time)s."
+
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: danielgetaneh2011@gmail.com\n"
 "POT-Creation-Date: 2023-01-31 11:45+0300\n"
