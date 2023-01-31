@@ -31,16 +31,19 @@ def get_user() -> Union[Dict, None]:
         return users.get(int(login_id), None)
     return None
 
+
 @app.before_request
 def before_request() -> None:
     """ Perform before requesting other request."""
     user = get_user()
     g.user = user
 
+
 @app.route('/')
 def get_index() -> str:
     """ Renders the index.html file."""
     return render_template('5-index.html')
+
 
 @babel.localeselector
 def get_locale() -> str:

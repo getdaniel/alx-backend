@@ -22,6 +22,7 @@ def get_index() -> str:
     """ Renders the index.html file."""
     return render_template('4-index.html')
 
+
 @babel.localeselector
 def get_locale() -> str:
     """ Get locale from request."""
