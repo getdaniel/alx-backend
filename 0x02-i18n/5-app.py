@@ -28,7 +28,7 @@ def get_user() -> Union[Dict, None]:
     """ Retrieves a user based on a user id."""
     login_id = request.args.get('login_as')
     if login_id:
-        return users.get(int(login_id), None)
+        return users.get(int(login_id))
     return None
 
 
@@ -48,6 +48,7 @@ def get_index() -> str:
 @babel.localeselector
 def get_locale() -> str:
     """ Get locale from request."""
+    locale = request.args.get('locale', '')
     if locale in app.config["LANGUAGES"]:
         return locale
     return request.accept_languages.best_match(app.config["LANGUAGES"])
